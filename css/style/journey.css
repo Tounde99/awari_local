@@ -1,0 +1,41 @@
+.up {
+  opacity: 0;
+  transform: translateY(20px); /* Optionnel : pour ajouter un effet de transition */
+  transition: opacity 0.5s, transform 0.5s; /* Optionnel : pour ajouter une transition fluide */
+}
+.up .show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.travel-blog-a {
+  width: 20%;
+}  
+.travel-blog-b {
+  width: 10%;
+}
+.travel-blog-c {
+  width: 20%;
+}
+.travel-a {
+  position: absolute;
+  top: 2rem;
+  left: -2px;
+  background-color: #1f618d;
+  width: 4px;
+  height: 5.5rem;
+}
+.travel-b {
+  position: absolute;
+  top: -3rem;
+  left: -2px;
+  background-color: #1f618d;
+  width: 4px;
+  height: 8.5rem;
+}
+.travel-blog-b span {
+  position: absolute;
+  right: 78%;
+  bottom: -8%;
+  font-size: 3rem;
+  color: #1f618d;
+}

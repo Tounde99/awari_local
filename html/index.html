@@ -16,7 +16,7 @@
     <!---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Rochester&display=swap" rel="stylesheet">
     <!--Style css-->
     <link rel="stylesheet" href="../css/style/style.css">
     <title>Accueil</title>
@@ -62,15 +62,18 @@
       <div class="container-fluid px-0">
         <div class="row"> 
           <div class="home-blog">
-            <div class="d-flex align-items-center w-100 h-100 p-3">
-              
-              <h1>Destination de rêve</h1>
+        
+            <div class="container w-100 h-100 d-flex align-items-center">
+              <div class="row">
+                <h1>Destination de rêve</h1>
+               
+              </div>
             </div>
           </div>
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/cascade.jpg" class="d-block w-100" alt="...">
+                <img src="/images/amazone.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="/images/cascade.jpg" class="d-block w-100 h-100" alt="...">
@@ -96,22 +99,27 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-6">
-            <h2 class="mb-5">Prochain voyage</h2>
-            <p>
-              Le Bénin recèle d'attraits touristiques naturels, 
-              riches et variés qui couvrent l'ensemble du territoire national. 
-              Le touriste qui visite le Bénin, trouve sur une surface réduite, 
-              tout ce qu'offre l'Afrique touristique : plages de cocotiers au sable fin,
-              fleuves et rivières où abonde le poisson, villages lacustres sur pilotis,
-              musées historiques et ethnographiques, habitations agrippées aux pentes dénudées des collines, 
-              châteaux forts en miniature, cavaliers in trépides, faune et flore abondantes et variées,
-              parcs nationaux et réserves, folklore et art vivants, climat saint et agréable,
-              populations au sourire permanent et à l'hospitalité légendaire…
-            </p>
-            <a class="go" href="">Découvrir tous nos Pack</a>
+            <div class="d-flex align-items-center h-100">
+              <div>
+                <h2 class="mb-5">Prochain voyage</h2>
+                <p>
+                  Le Bénin recèle d'attraits touristiques naturels, 
+                  riches et variés qui couvrent l'ensemble du territoire national. 
+                  Le touriste qui visite le Bénin, trouve sur une surface réduite, 
+                  tout ce qu'offre l'Afrique touristique : plages de cocotiers au sable fin,
+                  fleuves et rivières où abonde le poisson, villages lacustres sur pilotis,
+                  musées historiques et ethnographiques, habitations agrippées aux pentes dénudées des collines, 
+                  châteaux forts en miniature, cavaliers in trépides, faune et flore abondantes et variées,
+                  parcs nationaux et réserves, folklore et art vivants, climat saint et agréable,
+                  populations au sourire permanent et à l'hospitalité légendaire…
+                </p>
+                <a class="go" href="">Découvrir tous nos Pack</a>
+              </div>
+            </div>
+            
           </div>
           <div class="col-sm-12 col-lg-6">
-            
+            <div><img src="/images/about.png" alt="about"/></div>
           </div>
         </div>
       </div>
@@ -315,7 +323,7 @@
             </div>
             <div class="col-sm-12 col-lg-5">
               <form class="position-relative" method="post" action="">
-                <input type="email" class="form-control" placeholder="Adresse email...">
+                <input type="email" class="form-control" placeholder="Adresse email..." required>
                 <button type="button">S'abonner</button>
               </form>
             </div>
@@ -369,7 +377,7 @@
           </div>
         </div>
       </div>
-      <div class="foot-bottom py-3">
+      <div class="foot-bottom py-2">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
@@ -386,8 +394,6 @@
   <script src="../js/jquery/jquery-migrate.js"></script>
   <!--Slick-->
   <script src="/js/slick/slick.min.js"></script>
-  <!---->
-  <script src="/js/swiper/swiper-bundle.min.js"></script>
   <!---->
   <script src="../js/script/index.js"></script>
   </body>
