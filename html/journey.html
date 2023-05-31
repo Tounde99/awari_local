@@ -23,23 +23,40 @@
     <title>Accueil</title>
   </head>
   <body>
-    <header class="py-2">
+    <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg py-0">
           <div class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
             <span class="text-white"><i class="bi bi-list"></i></span>
           </div>
-          <div class="navbar-brand"><a href="index.html">Logo</a></div>
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link " href="index.html">Accueil</a></li>
-            <li class="nav-item"><a class="nav-link nav-active" href="#">Pack</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Galerie</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <div class=""><a href="index.html">Logo</a></div>
+          <ul class="navigation-bar mx-auto">
+            <li><a class=" text-white" href="index.html">Accueil</a></li>
+            <li><a class=" text-white" href="#">Pack</a></li>
+            <li><a class=" text-white" href="#">Galerie</a></li>
+            <li><a class=" text-white" href="#">Contact</a></li>
           </ul>
           <ul class="icon-nav">
-            <li><a class="text-white" href="#"><i class="bi bi-search"></i></a></li>
-            <li><a class="icon-circle" href="#"><i class="bi bi-cart3"></i></a></li>
-            <li><a class="icon-circle" href="#"><i class="bi bi-person-fill"></i></a></li>
+            <li class="searching position-relative">
+              <a class="text-white" href="#"><i class="bi bi-search"></i></a>
+              <form class="searching-form" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </li>
+            <li><a href="#">
+              <span class="icon-circle"><i class="bi bi-cart3"></i></span>
+            </a></li>
+            <li class="account position-relative">
+              <a href="#">
+                <span class="icon-circle"><i class="bi bi-person-fill"></i></span>
+              </a>
+              <ul class="icon-blog p-3">
+                <li><a class="d-block p-0 text-dark" href="inscription.html">Inscription</a></li>
+                <li><a class="d-block p-0 text-dark" href="connection.html">Connexion</a></li>
+                <hr>
+                <li><a class="d-block p-0 text-dark" href="#">Aide</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
