@@ -7,7 +7,7 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-     
+    autoplay: true,
     autoplaySpeed: 6000,
     padding : 400,
       responsive: [

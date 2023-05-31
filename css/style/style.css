@@ -7,20 +7,16 @@ body {
   margin: auto;
   color: #000;
 }
-h1 {
-  font-family: 'Rochester', cursive;
-  font-size: 5rem;
-}
- h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 h2 {
-  font-size: 2.5rem;
   font-weight: 700;
   color: #1f4b8d;
 }
 img {
   max-width: 100% ;
+  max-height: 600px;
   object-fit: cover;
 }
 ul {
@@ -59,12 +55,14 @@ hr {
 }
 /* Navigation */
 header {
-  background-color: #1f4b8d;
+  background-color: #1f618d;
   position: sticky;
   top: 0;
   left: 0;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
   z-index: 999;
+}
+.nav-logo {
+  max-width: 112px;
 }
 .navigation-bar {
   display: flex;
@@ -126,7 +124,7 @@ header {
   width: 256px;
 }
 
-/*Mobile*/
+/*Tablet*/
 .navbar-toggler {
   font-size: 2rem;
   padding: 0;
@@ -142,11 +140,9 @@ header {
   border-bottom: 2px solid #fff;
 }
 .offcanvas-active {
-  border-bottom: 2px solid #1f4b8d !important;
   color: #1f4b8d !important;
 }
 .offcanvas-nav li a:hover {
-  border-bottom: 2px solid #1f4b8d;
   color: #1f4b8d !important;
 }
 /*Home*/
@@ -165,6 +161,13 @@ header {
   height: 100%;
   z-index: 1;
 }
+/*About*/
+.about {
+  margin: 64px 0;
+}
+.about-blog-img {
+  background-color: #d9d9d9;
+}
 /*Slick*/
 .slick-prev, .slick-next {
   background-color: #000;
@@ -180,40 +183,49 @@ header {
   color: #000 !important;
 }
 /*Tendency*/
+.tendency {
+  background-color: #234e52 ;
+  color: #fff;
+}
+.tendency h4 {
+  font-weight: 400;
+}
+.tendency-content {
+  transform: translateY(112px);
+}
 .tendency-blog {
   position: relative;
   margin: 0 1rem;
 }
-.tendency-blog .tendency-blog-img {
-  position: relative;
+.tendency-blog:hover .tendency-blog-see {
+  display: block;
 }
-.tendency-blog  .tendency-blog-img img {
-  transform: scale(1) rotate(0deg);
-}
-.tendency-blog .tendency-blog-img::after  {
-  content: '';
-  position: absolute;
+.tendency-blog-see {
   background-image: linear-gradient(to bottom, transparent 30%, rgba(0, 0, 0, 0.9) 100%);
+  display:  none;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;  
-}
-.tendency-blog-content {
-  position: absolute;
-  top: 75%;
-  left: 30%;
-  color: #fff;
   z-index: 2;
+  color: #fff;
+}
+.tendency-blog-see .tendency-see {
+  font-size: 3rem;
+  text-align: center;
+  color: #4299E1;
 }
 
 /*Review*/
+.review {
+  margin: 160px 0 64px;
+}
 .review-header {
   text-align: center;
 }
 .review-blog {
-  background-color: #2d3748;
+  background-color: #1f4b8d;
   margin: 0 1.5rem 0 1.5rem;
   padding: 2rem;
   color: #fff;
@@ -223,9 +235,12 @@ header {
   left: 3.2rem;
   bottom: -1.7rem;
   font-size: 1.875rem;
-  color: #2d3748;
+  color: #1f4b8d;
 }
 /*Newsletters*/
+.newsletters {
+  margin: 0 0 64px;
+}
 .newsletters-blog {
   background-color: #e4ebf6;
 }
@@ -234,10 +249,26 @@ header {
   top: 0;
   right: 0;
 }
+/*Inscription*/
+.inscription-blog div  {
+  margin: 0 2rem;
+}
+.inscription-ou {
+  margin: 0 4rem;
+  color: #6c6c6c;
+}
+.inscription-ta {
+  background-color: #c5c5c5;
+  width: 196px;
+  height: 1px;
+}
 /*Footer*/
 .foot-top {
   background-color: #2d3748;
   color: #fff;
+}
+.foot-top h4 {
+  color: #4299E1;
 }
 .foot-bottom {
   background-color: #1a202c;

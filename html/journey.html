@@ -11,12 +11,10 @@
     <!--Slick css-->
     <link rel="stylesheet" href="/css/slick/slick.css">
     <link rel="stylesheet" href="/css/slick/slick-theme.css">
-    <!---->
-    <link rel="stylesheet" href="/css/swiper/swiper-bundle.min.css">
-    <!---->
+    <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Rochester&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--Style css-->
     <link rel="stylesheet" href="../css/style/style.css">
     <link rel="stylesheet" href="../css/style/journey.css">
@@ -29,12 +27,12 @@
           <div class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
             <span class="text-white"><i class="bi bi-list"></i></span>
           </div>
-          <div class=""><a href="index.html">Logo</a></div>
+          <div class="nav-logo"><a href="index.html"><img src="/images/logo-awari.png" alt="logo-awari"/></a></div>
           <ul class="navigation-bar mx-auto">
-            <li><a class=" text-white" href="index.html">Accueil</a></li>
-            <li><a class=" text-white" href="#">Pack</a></li>
-            <li><a class=" text-white" href="#">Galerie</a></li>
-            <li><a class=" text-white" href="#">Contact</a></li>
+            <li><a class="text-white" href="index.html">Accueil</a></li>
+            <li><a class="text-white" href="#">Pack</a></li>
+            <li><a class="text-white" href="#">Galerie</a></li>
+            <li><a class="text-white" href="#">Contact</a></li>
           </ul>
           <ul class="icon-nav">
             <li class="searching position-relative">
@@ -61,7 +59,7 @@
         </nav>
       </div>
     </header>
-    <!--Mobile-->
+    <!--Tablet-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -75,57 +73,41 @@
         </ul>
       </div>
     </div>
-    <!---->
-    <div class=" py-5">
+    <!--Journey -->
+    <div class="journey-home">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 mb-5"><h2 class="text-center">Liste des destinations du Pack</h2></div>
-          <div class="col-sm-12">
-            <div class="d-flex justify-content-center mb-9 ">
-              <div class="travel-blog-a py-5">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <h1>Culture Moderne Silver</h1>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+    <!--Journey -->
+    <div class="journey">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div>
+            <h2 class="text-center mb-5">Liste des destinations du Pack</h2>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="row text-center text">
+              <div class="col-sm-12 col-lg-5">
                 <h3 class="mb-4">Ouidah</h3>
                 <ul>
                   <li><span><i class="bi bi-geo-alt-fill"></i></span> Porte du non retour</li>
                   <li><span><i class="bi bi-geo-alt-fill"></i></span>  Porte du non retour</li>
                 </ul>
               </div>
-              <div class="travel-blog-b position-relative py-5"> 
-                <div class="travel-a"></div>
-                <span><i class="bi bi-pin-map-fill"></i></span>
+              <div class="col-sm-12 col-lg-2">
+                <div class=" travel-blog-b position-relative"> 
+                  <div class="travel-a"></div>
+                  <div><img src="/images/map.png" alt="map"/></div>
+                </div>
               </div>
-              <div class="travel-blog-c position-relative py-5">
-                <p>Sorem ipsum dolor sitipiscing elit. Nunc vulputate libero et velit interdum</p>
-              </div>
-            </div>
-            <!---->
-            <div class="up show d-flex justify-content-center mb-9">
-              <div class="travel-blog-a py-5">
-                <h3 class="mb-4">Abomey</h3>
-                <ul>
-                  <li><span><i class="bi bi-geo-alt-fill"></i></span> Porte du non retour</li>
-                </ul>
-              </div>
-              <div class="travel-blog-b position-relative py-5"> 
-                <div class="travel-b"></div>
-                <span><i class="bi bi-pin-map-fill"></i></span>
-              </div>
-              <div class="travel-blog-c position-relative py-5">
-                <p>Sorem ipsum dolor sitipiscing elit. Nunc vulputate libero et velit interdum</p>
-              </div>
-            </div>
-            <!---->
-            <div class="up show d-flex justify-content-center mb-9">
-              <div class="travel-blog-a py-5">
-                <h3 class="mb-4">Abomey</h3>
-                <ul>
-                  <li><span><i class="bi bi-geo-alt-fill"></i></span> Porte du non retour</li>
-                </ul>
-              </div>
-              <div class="travel-blog-b position-relative py-5"> 
-                <div class="travel-b"></div>
-                <span><i class="bi bi-pin-map-fill"></i></span>
-              </div>
-              <div class="travel-blog-c position-relative py-5">
+              <div class="col-sm-12 col-lg-5">
                 <p>Sorem ipsum dolor sitipiscing elit. Nunc vulputate libero et velit interdum</p>
               </div>
             </div>
@@ -174,6 +156,7 @@
                   <li>contact@awaria.com</li>
                   <li>+229 63636363</li>
                 </ul>
+                <a href="#">Nous contacter</a>
               </div>
             </div>
           </div>

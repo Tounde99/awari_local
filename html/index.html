@@ -11,10 +11,10 @@
     <!--Slick css-->
     <link rel="stylesheet" href="/css/slick/slick.css">
     <link rel="stylesheet" href="/css/slick/slick-theme.css">
-    <!---->
+    <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Rochester&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--Style css-->
     <link rel="stylesheet" href="../css/style/style.css">
     <title>Accueil</title>
@@ -26,12 +26,12 @@
           <div class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
             <span class="text-white"><i class="bi bi-list"></i></span>
           </div>
-          <div class=""><a href="index.html">Logo</a></div>
+          <div class="nav-logo"><a href="index.html"><img src="/images/logo-awari.png" alt="logo-awari"/></a></div>
           <ul class="navigation-bar mx-auto">
-            <li><a class=" text-white" href="index.html">Accueil</a></li>
-            <li><a class=" text-white" href="#">Pack</a></li>
-            <li><a class=" text-white" href="#">Galerie</a></li>
-            <li><a class=" text-white" href="#">Contact</a></li>
+            <li><a class="text-white" href="index.html">Accueil</a></li>
+            <li><a class="text-white" href="#">Pack</a></li>
+            <li><a class="text-white" href="#">Galerie</a></li>
+            <li><a class="text-white" href="#">Contact</a></li>
           </ul>
           <ul class="icon-nav">
             <li class="searching position-relative">
@@ -58,7 +58,7 @@
         </nav>
       </div>
     </header>
-    <!--Mobile-->
+    <!--Tablet-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -73,14 +73,14 @@
       </div>
     </div>
     <!--Home-->
-    <div class="home mb-5">
+    <div class="home">
       <div class="container-fluid px-0">
         <div class="row"> 
           <div class="col-sm-12">
             <div class="home-blog">
               <div class="w-100 h-100 d-flex justify-content-center align-items-center">
                 <div class="text-center">
-                  <h1>Destination de rêve</h1>
+                  <h1>Destination de rêve...</h1>
                   <a class="go" href="packs.html">Nos packs</a>
                 </div>
               </div>
@@ -91,7 +91,7 @@
                   <img src="/images/bio-guera.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="/images/bio-guera.jpg" class="d-block w-100 h-100" alt="...">
+                  <img src="/images/paysage.jpg" class="d-block w-100 h-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="/images/bio-guera.jpg" class="d-block w-100" alt="...">
@@ -111,10 +111,10 @@
       </div>
     </div>
     <!--About-->
-    <div class="py-5">
+    <div class="about">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-sm-12 col-lg-6 mb-5 mb-lg-0">
             <div class="d-flex align-items-center h-100">
               <div>
                 <h2 class="mb-5">Prochain voyage</h2>
@@ -134,105 +134,113 @@
             </div>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <div><img src="/images/about.png" alt="about"/></div>
+            <div class="about-blog-img"><img src="/images/about.png" alt="about"/></div>
           </div>
         </div>
       </div>
     </div>
     <!--Tendency-->
-    <div class="tendency py-5">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 mb-5">
-             <h2 class="text-center">Sites tendance</h2>
-          </div>
-          <div>
-            <div class="tendency-slick">
-              <div>
-                <div class="tendency-blog">
-                  <div>
-                    <a class="tendency-blog-img" href="#"><img src="/images/bio-guera.jpg" alt="bio-guera"/></a>
+    <div class="tendency">
+      <div class="container">
+        <div class="tendency-content">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center mb-5">
+                <h4 class="text-white">Venez découvrir nos</h4>
+                <h2 class="text-white">Destinations en vedette</h2>
+              </div>
+              <div class="tendency-slick">
+                <div>
+                  <div class="tendency-blog">
+                    <div><img src="/images/bio-guera.jpg" alt="bio-guera"/></div>
+                    <div class="tendency-blog-see">
+                      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                       <div>
+                        <div class="tendency-see mb-2"><i class="bi bi-plus-circle-fill"></i></div>
+                        <h4>Bio Guéra</h4>
+                       </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="tendency-blog-content">
-                    <h4>Bio Guéra</h4>
+                </div> 
+                <!---->
+                <div>
+                  <div class="tendency-blog">
+                    <div><img src="/images/bio-guera.jpg" alt="bio-guera"/></div>
+                    <div class="tendency-blog-see">
+                      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                       <div>
+                        <div class="tendency-see mb-2"><i class="bi bi-plus-circle-fill"></i></div>
+                        <h4>Bio Guéra</h4>
+                       </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div> 
-              <!---->
-              <div>
-                <div class="tendency-blog">
-                  <div>
-                    <a class="tendency-blog-img" href="#"><img src="/images/bio-guera.jpg" alt="bio-guera"/></a>
+                </div>  
+                <!----> 
+                <div>
+                  <div class="tendency-blog">
+                    <div><img src="/images/bio-guera.jpg" alt="bio-guera"/></div>
+                    <div class="tendency-blog-see">
+                      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                       <div>
+                        <div class="tendency-see mb-2"><i class="bi bi-plus-circle-fill"></i></div>
+                        <h4>Bio Guéra</h4>
+                       </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="tendency-blog-content">
-                    <h4>Bio Guéra</h4>
+                </div>  
+                <!---->
+                <div>
+                  <div class="tendency-blog">
+                    <div><img src="/images/bio-guera.jpg" alt="bio-guera"/></div>
+                    <div class="tendency-blog-see">
+                      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                       <div>
+                        <div class="tendency-see mb-2"><i class="bi bi-plus-circle-fill"></i></div>
+                        <h4>Bio Guéra</h4>
+                       </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>  
-              <!----> 
-              <div>
-                <div class="tendency-blog">
-                  <div>
-                    <a class="tendency-blog-img" href="#"><img src="/images/bio-guera.jpg" alt="bio-guera"/></a>
+                </div> 
+                <!---->
+                <div>
+                  <div class="tendency-blog">
+                    <div><img src="/images/bio-guera.jpg" alt="bio-guera"/></div>
+                    <div class="tendency-blog-see">
+                      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                       <div>
+                        <div class="tendency-see mb-2"><i class="bi bi-plus-circle-fill"></i></div>
+                        <h4>Bio Guéra</h4>
+                       </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="tendency-blog-content">
-                    <h4>Bio Guéra</h4>
-                  </div>
-                </div>
-              </div>  
-              <!---->
-              <div>
-                <div class="tendency-blog">
-                  <div>
-                    <a class="tendency-blog-img" href="#"><img src="/images/bio-guera.jpg" alt="bio-guera"/></a>
-                  </div>
-                  <div class="tendency-blog-content">
-                    <h4>Bio Guéra</h4>
-                  </div>
-                </div>
-              </div> 
-              <!---->
-              <div>
-                <div class="tendency-blog">
-                  <div>
-                    <a class="tendency-blog-img" href="#"><img src="/images/bio-guera.jpg" alt="bio-guera"/></a>
-                  </div>
-                  <div class="tendency-blog-content">
-                    <h4>Bio Guéra</h4>
-                  </div>
-                </div>
-              </div> 
+                </div> 
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!--Review-->
-    <div class="review py-5">
+    <div class="review">
       <div class="container-fluid">
-        <div class="row review-header mb-5">
-          <div class="col-md-12 mb-5">
-            <h2>Voix des clients </h2>
-          </div>
-          <div class="col-md-12">
-            <p>Nous accordons une grande importance à des relations solides et avons constaté les avantages qu'elles apportent à notre entreprise. </p>
-            <p>Les commentaires des clients sont essentiels pour nous aider à bien faire les choses.</p>
-          </div>
-        </div>
-        <div class="row">  
+        <div class="row"> 
           <div class="col-sm-12">
+            <div class="mb-5 text-center">
+              <h2>Voix des clients</h2>
+              <p>Nous accordons une grande importance à des relations solides et avons constaté les avantages qu'elles apportent à notre entreprise.</p>
+              <p>Les commentaires des clients sont essentiels pour nous aider à bien faire les choses.</p>
+            </div>
             <div class="review-slick">
               <div>
                 <div class="mb-5 position-relative">
                   <div class="review-blog">
-                    <div class="d-flex justify-content-between align-items-center mb-4"> 
-                      <span class="icon-circle "><i class="bi bi-quote"></i></span>
-                      <h5>Client</h5>
-                    </div>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam.
-                    </p>
+                    <span class="icon-circle mb-4"><i class="bi bi-quote"></i></span>
+                    <p class="mb-0">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel dum Curabitur vel bibendum.</p>
                   </div>
                   <span class="review-triangle"><i class="bi bi-caret-down-fill"></i></span>
                 </div>
@@ -240,8 +248,8 @@
                   <div><img class="" src="/images/placeholder-1.png" alt="placeholder-1"/></div> 
                   <div class="d-flex align-items-center w-100 px-2">
                     <div class="w-100">
-                      <h6>James Hank</h6>
-                      <p>Community</p>
+                      <h6>Agassou</h6>
+                      <p>Enrique</p>
                     </div>
                   </div>
                 </div>
@@ -250,14 +258,8 @@
               <div>
                 <div class="mb-5 position-relative">
                   <div class="review-blog">
-                    <div class="d-flex justify-content-between align-items-center mb-4"> 
-                      <span class="icon-circle "><i class="bi bi-quote"></i></span>
-                      <h5>Client</h5>
-                    </div>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam.
-                    </p>
+                    <span class="icon-circle mb-4"><i class="bi bi-quote"></i></span>
+                    <p class="mb-0">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel dum Curabitur vel bibendum.</p>
                   </div>
                   <span class="review-triangle"><i class="bi bi-caret-down-fill"></i></span>
                 </div>
@@ -265,24 +267,18 @@
                   <div><img src="/images/placeholder-2.png" alt="placeholder-2"/></div> 
                   <div class="d-flex align-items-center w-100 px-2">
                     <div class="w-100 ">
-                      <h5>Margaretha</h5>
-                      <p>Digital Marketing</p>
+                      <h5>Tossou</h5>
+                      <p>Gisele</p>
                     </div>
                   </div>
                 </div>  
               </div>  
               <!----> 
               <div>
-                <div class="mb-5 position-relative">
+                <div class="mb-4 position-relative">
                   <div class="review-blog">
-                    <div class="d-flex justify-content-between align-items-center mb-4"> 
-                      <span class="icon-circle "><i class="bi bi-quote"></i></span>
-                      <h5>Client</h5>
-                    </div>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam.
-                    </p>
+                    <span class="icon-circle mb-4"><i class="bi bi-quote"></i></span>
+                    <p class="mb-0">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel dum Curabitur vel bibendum.</p>
                   </div>
                   <span class="review-triangle"><i class="bi bi-caret-down-fill"></i></span>
                 </div>
@@ -290,8 +286,8 @@
                   <div><img src="/images/placeholder-3.png" alt="placeholder-3"/></div> 
                   <div class="d-flex align-items-center w-100 px-2">
                     <div class="w-100">
-                      <h5>Hendri Lee</h5>
-                      <p>Digital Marketing</p>
+                      <h5>Aballo</h5>
+                      <p>Franck</p>
                     </div>
                   </div>
                 </div> 
@@ -300,35 +296,28 @@
               <div>
                 <div class="mb-5 position-relative">
                   <div class="review-blog">
-                    <div class="d-flex justify-content-between align-items-center mb-4"> 
-                      <span class="icon-circle "><i class="bi bi-quote"></i></span>
-                      <h5>Client</h5>
-                    </div>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam.
-                    </p>
+                    <span class="icon-circle mb-4"><i class="bi bi-quote"></i></span>
+                    <p class="mb-0">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel dum Curabitur vel bibendum.</p>
                   </div>
                   <span class="review-triangle"><i class="bi bi-caret-down-fill"></i></span>
                 </div>
                 <div class="d-flex mx-5">
-                  <div><img src="/images/placeholder-4.png" alt="placeholder-4"/></div> 
+                  <div><img src="/images/placeholder-2.png" alt="placeholder-2"/></div> 
                   <div class="d-flex align-items-center w-100 px-2">
-                    <div class="w-100">
-                      <h5>Robert Kowalski</h5>
-                      <p>CEO of HighVoltage Technology</p>
+                    <div class="w-100 ">
+                      <h5>Tossou</h5>
+                      <p>Gisele</p>
                     </div>
                   </div>
-                </div> 
+                </div>  
               </div> 
             </div>
           </div>
-
         </div>  
       </div>
     </div> 
     <!--Newsletters-->
-    <div class="newsletters py-5">
+    <div class="newsletters">
       <div class="container">
         <div class="newsletters-blog">
           <div class="row justify-content-center py-9 px-5 px-lg-0">
@@ -347,7 +336,7 @@
       </div>  
     </div>
     <!--Footer-->
-    <footer class="pt-5">
+    <footer>
       <div class="foot-top py-9">
         <div class="container">
           <div class="row">
@@ -383,10 +372,11 @@
             <div class="col-sm-12 col-md-6 col-lg-3 ">
               <div>
                 <h4 class="mb-4">Contactez-nous</h4>
-                <ul>
+                <ul class="mb-4">
                   <li>contact@awaria.com</li>
                   <li>+229 63636363</li>
                 </ul>
+                <a href="#">Nous contacter</a>
               </div>
             </div>
           </div>
