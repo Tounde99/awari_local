@@ -109,7 +109,7 @@ header {
   background-color: #fff;
   width: 256px;
   border-radius: 1rem;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .account:hover .icon-blog {
@@ -125,7 +125,6 @@ header {
   display: none;
   width: 256px;
 }
-
 /*Tablet*/
 .navbar-toggler {
   font-size: 2rem;
@@ -145,6 +144,26 @@ header {
   color: #1f4b8d !important;
 }
 .offcanvas-nav li a:hover {
+  color: #1f4b8d !important;
+}
+/*Moblie*/
+.header-mobile {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  text-align: center;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+.header-mobile div {
+  flex: 1;
+  text-align: center;
+}  
+.header-mobile div a {
+  font-size: 2rem;
   color: #1f4b8d !important;
 }
 /*Home*/
@@ -209,7 +228,7 @@ header {
 .tendency-blog-see {
   position: relative;
   background-color: #234e52;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 0 0 1rem 1rem;
   color: #fff;
 }
@@ -290,5 +309,18 @@ header {
   /*Header*/
   .navigation-bar {
     display: none;
+  }
+}
+@media (max-width: 576px) { 
+  /*Mobile*/
+  .navbar-toggler {
+    display: none;
+  }  
+  .header-mobile {
+    display: flex;
+  }
+  /*Footer*/
+  footer {
+    margin-bottom: 3.5rem;
   }
 }
