@@ -2,7 +2,7 @@
 .packs-home {
   background: linear-gradient(0turn, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../../images/pack.jpg) no-repeat center;
   background-size: cover;
-  padding: 64px 0;
+  padding: 128px 0;
   color: #fff;
 }
 .packs {
@@ -42,13 +42,38 @@
 .journey {
   margin: 64px 0;
 }
+.journey h3 {
+  position: relative;
+  text-transform: uppercase;
+}
 .travel-a {
   background-color: #1f4b8d;
   width: 4px;
-  height: 5.5rem;
+  height: 96px;
 }
 .travel-b {
   background-color: #1f4b8d;
   width: 4px;
   height: 160px;
+}
+/*gallery*/
+.gallery {
+  margin: 64px;
+}
+.gallery-form div {
+  margin: 0 1rem;
+}
+.gallery-blog {
+  background-color: transparent;
+  margin: 0 1rem;
+  color: #000;
+}
+.gallery-blog-mini {
+  position: relative;
+  top: -20px;
+  left: 0;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 0 6px  rgb(0 0 0 / 0.2);
 }

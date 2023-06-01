@@ -32,7 +32,7 @@
           <ul class="navigation-bar mx-auto">
             <li><a class="text-white" href="index.html">Accueil</a></li>
             <li><a class="text-white" href="packs.html">Pack</a></li>
-            <li><a class="text-white" href="gallery.html">Galerie</a></li>
+            <li><a class="text-white nav-active" href="gallery.html">Galerie</a></li>
             <li><a class="text-white" href="#">Contact</a></li>
           </ul>
           <ul class="icon-nav">
@@ -70,42 +70,136 @@
         </ul>
       </div>
     </div>
-    <!--Journey Home-->
+    <!--Gallery Home-->
     <div class="packs-home">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="d-flex justify-content-center">
-              <h1>Culture Moderne Silver</h1>
+              <h1>Gallery</h1>
             </div>
           </div>
         </div>
       </div>   
     </div>
-    <!--Journey-->
-    <div class="journey">
+    <!--Gallery-->
+    <div class="gallery">
       <div class="container">
-        <div class="row justify-content-center">
-          <div>
-            <h2 class="text-center mb-5">Liste des destinations du Pack</h2>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <div class="row text-center text-lg-0">
-              <div class="col-sm-12 col-lg-5">
-                <h3 class="mb-4">Ouidah</h3>
-                <ul>
-                  <li><span><i class="bi bi-geo-alt-fill"></i></span> Porte du non retour</li>
-                  <li><span><i class="bi bi-geo-alt-fill"></i></span>  Porte du non retour</li>
-                </ul>
-              </div>
-              <div class="col-sm-12 col-lg-2 mb-3 mb-lg-0">
-                <div class="d-flex justify-content-center "> 
-                  <div class="travel-a"></div>
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <form method="post" action="">
+              <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-4 mb-4 mb-lg-0">
+                  <select class="form-select p-3" aria-label=".form-select-lg example">
+                    <option selected>Sélectionner une ville</option>
+                    <option value="1">Cotonou</option>
+                    <option value="2">Porto-Novo,</option>
+                    <option value="3">Djougou</option>
+                    <option value="4">Abomey-Calavi</option>
+                    <option value="5">Parakou</option>
+                  </select>
                 </div>
-                <div><img src="../images/map.png" alt="map"/></div>
+                <div class="col-sm-12 col-lg-4 mb-4">
+                  <select class="form-select p-3" aria-label=".form-select-lg example">
+                    <option selected>sélectionner </option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-sm-12 col-lg-4"><button type="submit">Recherche</button></div>
               </div>
-              <div class="col-sm-12 col-lg-5">
-                <p>Sorem ipsum dolor sitipiscing elit. Nunc vulputate libero et velit interdum</p>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="gallery-blog">
+              <div><img src="../images/amazone.png" class="d-block w-100" alt="amazone"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Amazone</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Cotonou, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="gallery-blog">
+              <div><img src="../images/grand-popo.png" class="d-block w-100" alt="grand-popo"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Grand-popo</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Grand-popo, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="gallery-blog">
+              <div><img src="../images/bio-guera.jpg" class="d-block w-100" alt="bio-guera"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Bio guera</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Cotonou, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="gallery-blog">
+              <div><img src="../images/amazone.png" class="d-block w-100" alt="amazone"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Amazone</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Cotonou, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="gallery-blog">
+              <div><img src="../images/amazone.png" class="d-block w-100" alt="amazone"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Amazone</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Cotonou, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="gallery-blog">
+              <div><img src="../images/amazone.png" class="d-block w-100" alt="amazone"/></div>
+              <div class="gallery-blog-mini">
+                <div>
+                  <h5>Amazone</h5>
+                  <div class="mb-3">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span>Cotonou, Bénin</span>
+                  </div>
+                  <a href="#">Voir plus <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
               </div>
             </div>
           </div>
