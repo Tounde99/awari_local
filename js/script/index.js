@@ -1,11 +1,11 @@
 // Tendency
 $(document).ready(function(){
   $('.tendency-slick').slick({
-    arrows: false,
+    arrows: true,
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
@@ -14,7 +14,7 @@ $(document).ready(function(){
         {
           breakpoint: 1240,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             arrows: false,
             dots: true

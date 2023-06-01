@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/logo.svg">
     <!--Bootstrap css-->
     <link rel="stylesheet" href="../css/bootstrap/all/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap/all/theme.css">
@@ -16,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--Style css-->
-    <link rel="stylesheet" href="../css/style/style.css">
+    <link rel="stylesheet" href="../css/style/index.css">
     <title>Accueil</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
           <div class="nav-logo"><a href="index.html"><img src="/images/logo-awari.png" alt="logo-awari"/></a></div>
           <ul class="navigation-bar mx-auto">
             <li><a class="text-white" href="index.html">Accueil</a></li>
-            <li><a class="text-white" href="#">Pack</a></li>
+            <li><a class="text-white" href="packs.html">Pack</a></li>
             <li><a class="text-white" href="#">Galerie</a></li>
             <li><a class="text-white" href="#">Contact</a></li>
           </ul>
@@ -40,13 +41,9 @@
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
               </form>
             </li>
-            <li><a href="#">
-              <span class="icon-circle"><i class="bi bi-cart3"></i></span>
-            </a></li>
+            <li><a href="#"><span class="icon-circle"><i class="bi bi-cart3"></i></span></a></li>
             <li class="account position-relative">
-              <a href="#">
-                <span class="icon-circle"><i class="bi bi-person-fill"></i></span>
-              </a>
+              <a href="#"><span class="icon-circle"><i class="bi bi-person-fill"></i></span></a>
               <ul class="icon-blog p-3">
                 <li><a class="d-block p-0 text-dark" href="inscription.html">Inscription</a></li>
                 <li><a class="d-block p-0 text-dark" href="connection.html">Connexion</a></li>
@@ -96,15 +93,11 @@
               <div class="mb-4"><input class="form-control p-3" type="email" placeholder="Adresse mail" required></div>
               <div class="mb-4"><input class="form-control p-3" type="password" placeholder="Mot de passe" required></div> 
               <div class="mb-4"><input class="form-control p-3" type="password" placeholder="Confirmer le mot de passe" required></div> 
-              <div class="mb-2">
+              <div class="mb-4">
                 <input type="checkbox" class="form-check-input" id="terms-conditions" required>
                 <label class="form-check-label" for="terms-conditions">Accept les condictions d'utilisation</label>
               </div>
-              <div class="mb-4">
-                <input type="checkbox" class="form-check-input" id="terms-newsletters" required>
-                <label class="form-check-label" for="terms-newsletters">S'abonner à notre newsletter</label>
-              </div>
-              <div class="mb-2"><p>Avez vous déjà un compte ? <a href="connection.html">Connectez-vous</a> </p></div>
+              <div class="mb-2"><p>Avez vous déjà un compte ? <a href="connection.html"> S'identifier ici</a> </p></div>
               <div><button type="submit">S'inscrit</button></div>
             </form>
           </div>
@@ -117,49 +110,41 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3 mb-5 mb-lg-0">
-              <div>
-                <h4 class="mb-4">A propos</h4>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam duis vulputate tristique ut maecenas cursus vestibulum. </p>
-                <a class="go" href="#">Qui sommes nous ?</a>
-              </div>
+              <h4 class="mb-4">A propos</h4>
+              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam duis vulputate tristique ut maecenas cursus vestibulum. </p>
+              <a class="go" href="#">Qui sommes nous ?</a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 mb-5 mb-lg-0">
-              <div>
-                <h4 class="mb-4">Notre SAV</h4>
-                <ul>
-                  <li>Du lundi au samedi</li>
-                  <li>8h - 19h</li>
-                  <li>Dimanche</li>
-                  <li>9h - 18h</li>
-                </ul>
-              </div>  
+              <h4 class="mb-4">Notre SAV</h4>
+              <ul>
+                <li>Du lundi au samedi</li>
+                <li>8h - 19h</li>
+                <li>Dimanche</li>
+                <li>9h - 18h</li>
+              </ul> 
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <div>
-                <h4 class="mb-4">Suivez nous </h4>
-                <ul>
-                  <li><a class="text-white" href="#">Facebook</a></li>
-                  <li><a class="text-white" href="#">Instagram</a></li>
-                  <li><a class="text-white" href="#">Twitter</a></li>
-                  <li><a class="text-white" href="#">Linkedin</a></li>
-                </ul>
-              </div>
+              <h4 class="mb-4">Suivez nous </h4>
+              <ul>
+                <li><a class="text-white" href="#"><span><i class="bi bi-facebook"></i> </span> Facebook</a></li>
+                <li><a class="text-white" href="#"><span><i class="bi bi-instagram"></i></span> Instagram</a></li>
+                <li><a class="text-white" href="#"><span><i class="bi bi-twitter"></i></span> Twitter</a></li>
+                <li><a class="text-white" href="#"><span><i class="bi bi-linkedin"></i></span> Linkedin</a></li>
+              </ul>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-              <div>
-                <h4 class="mb-4">Contactez-nous</h4>
-                <ul class="mb-4">
-                  <li>contact@awaria.com</li>
-                  <li>+229 63636363</li>
-                </ul>
-                <a href="#">Nous contacter</a>
-              </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 ">
+              <h4 class="mb-4">Contactez-nous</h4>
+              <ul class="mb-4">
+                <li>contact@awaria.com</li>
+                <li>+229 63636363</li>
+              </ul>
+              <div><a class="foot-contact" href="#"><span></span> Nous contacter</a></div>
             </div>
           </div>
         </div>
       </div>
       <div class="foot-bottom py-2">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12 text-center">
               <div>&copy;2023 Awari. Tous droits réservés</div>
@@ -173,7 +158,9 @@
   <!--Jquery-->  
   <script src="../js/jquery/jquery.js"></script>
   <script src="../js/jquery/jquery-migrate.js"></script>
-  <!---->
+  <!--Slick-->
+  <script src="/js/slick/slick.min.js"></script>
+  <!--Script-->
   <script src="../js/script/index.js"></script>
   </body>
 </html>
