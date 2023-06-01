@@ -1,6 +1,6 @@
 /*packs*/
 .packs-home {
-  background: linear-gradient(0turn, rgb(12 29 55 / 0.8), rgb(12 29 55 / 0.8)), url(/images/pack.jpg) no-repeat center;
+  background: linear-gradient(0turn, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../../images/pack.jpg) no-repeat center;
   background-size: cover;
   padding: 64px 0;
   color: #fff;
@@ -23,7 +23,10 @@
   width: 80%;
   height: auto;
   padding: 1rem 2rem;
-  box-shadow: 0 0 6px  rgb(0 0 0 / 0.2);
+  box-shadow: 1px 1px 8px  rgb(0 0 0 / 0.5);
+}
+.packs-icon {
+  font-size: 0.65rem;
 }
 .packs-blog-b {
   padding: 3rem 2rem;

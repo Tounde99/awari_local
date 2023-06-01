@@ -1,7 +1,7 @@
 // Tendency
 $(document).ready(function(){
   $('.tendency-slick').slick({
-    arrows: true,
+    arrows: false,
     dots: false,
     infinite: true,
     speed: 300,
