@@ -73,7 +73,7 @@ header {
   position: relative;
   padding: 1rem 2rem;
 }
- .navigation-bar li a:hover::after { 
+ .navigation-bar li a:hover::after, .nav-active::after { 
   content: "";
   position: absolute;
   bottom: 15px;
@@ -256,14 +256,19 @@ header {
   right: 0;
 }
 /*Inscription*/
-.inscription-blog div  {
-  margin: 0 2rem;
+.inscription-sign {
+  background: linear-gradient(0turn, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/sign.png) no-repeat center;
+  background-size: cover;
+  
 }
-.inscription-ou {
+.inscription-blog div  {
+  margin: 0 3rem;
+}
+.inscription-or {
   margin: 0 4rem;
   color: #6c6c6c;
 }
-.inscription-ta {
+.inscription-thin-a {
   background-color: #c5c5c5;
   width: 196px;
   height: 1px;
@@ -272,9 +277,6 @@ header {
 .foot-top {
   background-color: #2d3748;
   color: #fff;
-}
-.foot-top h4 {
-  color: #4299E1;
 }
 .foot-bottom {
   background-color: #1a202c;
