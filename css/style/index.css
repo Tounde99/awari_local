@@ -7,6 +7,9 @@ body {
   margin: auto;
   color: #000;
 }
+h1 {
+  text-transform: uppercase;
+}
  h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -51,7 +54,7 @@ hr {
 .go {
   display: inline-block;
   background-color: #1f4b8d; 
-  padding: 1rem 2rem ; 
+  padding: 1rem; 
   color: #fff;
 }
 /* Navigation */

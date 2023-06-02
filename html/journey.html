@@ -25,13 +25,13 @@
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-lg py-0">
-          <div class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-a" aria-controls="offcanvasRight">
             <span class="text-white"><i class="bi bi-list"></i></span>
           </div>
-          <div class="nav-logo"><a href="index.html"><img src="/images/logo-awari.png" alt="logo-awari"/></a></div>
+          <div class="nav-logo"><a href="index.html"><img src="../images/logo-awari.png" alt="logo-awari"/></a></div>
           <ul class="navigation-bar mx-auto">
             <li><a class="text-white" href="index.html">Accueil</a></li>
-            <li><a class="text-white" href="packs.html">Pack</a></li>
+            <li><a class="text-white nav-active" href="packs.html">Pack</a></li>
             <li><a class="text-white" href="gallery.html">Galerie</a></li>
             <li><a class="text-white" href="#">Contact</a></li>
           </ul>
@@ -42,7 +42,7 @@
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
               </form>
             </li>
-            <li><a href="#"><span class="icon-circle"><i class="bi bi-cart3"></i></span></a></li>
+            <li><a href="#"><span class="icon-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-b" aria-controls="offcanvasRight"><i class="bi bi-cart3"></i></span></a></li>
             <li class="account position-relative">
               <a href="#"><span class="icon-circle"><i class="bi bi-person-fill"></i></span></a>
               <ul class="icon-blog p-3">
@@ -57,7 +57,7 @@
       </div>
     </header>
     <!--Tablet-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-a" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
@@ -65,10 +65,17 @@
         <ul class="offcanvas-nav">
           <li><a class="offcanvas-active" href="index.html">Accueil</a></li>
           <li><a class="text-dark" href="packs.html">Pack</a></li>
-          <li><a class="text-dark" href="gallery.html">Galerie</a></li>
+          <li><a class="text-dark"href="gallery">Galerie</a></li>
           <li><a class="text-dark" href="#">Contact</a></li>
         </ul>
       </div>
+    </div>
+    <!--Basket-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-b" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body"></div>
     </div>
     <!--Journey Home-->
     <div class="packs-home">

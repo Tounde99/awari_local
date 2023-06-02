@@ -25,10 +25,10 @@
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-lg py-0">
-          <div class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <div class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-a" aria-controls="offcanvasRight">
             <span class="text-white"><i class="bi bi-list"></i></span>
           </div>
-          <div class="nav-logo"><a href="index.html"><img src="/images/logo-awari.png" alt="logo-awari"/></a></div>
+          <div class="nav-logo"><a href="index.html"><img src="../images/logo-awari.png" alt="logo-awari"/></a></div>
           <ul class="navigation-bar mx-auto">
             <li><a class="text-white" href="index.html">Accueil</a></li>
             <li><a class="text-white nav-active" href="packs.html">Pack</a></li>
@@ -42,7 +42,7 @@
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
               </form>
             </li>
-            <li><a href="#"><span class="icon-circle"><i class="bi bi-cart3"></i></span></a></li>
+            <li><a href="#"><span class="icon-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-b" aria-controls="offcanvasRight"><i class="bi bi-cart3"></i></span></a></li>
             <li class="account position-relative">
               <a href="#"><span class="icon-circle"><i class="bi bi-person-fill"></i></span></a>
               <ul class="icon-blog p-3">
@@ -57,7 +57,7 @@
       </div>
     </header>
     <!--Tablet-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-a" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
@@ -70,13 +70,20 @@
         </ul>
       </div>
     </div>
+    <!--Basket-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-b" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body"></div>
+    </div>
     <!--Packs Home-->
     <div class="packs-home">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="d-flex justify-content-center">
-              <h1>Packs</h1>
+              <h1>Nos packs</h1>
             </div>
           </div>
         </div>
@@ -108,6 +115,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -140,6 +152,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -172,6 +189,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -204,6 +226,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -236,6 +263,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -268,6 +300,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">
@@ -300,6 +337,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam duis vulputate tristique ut maecenas cursus vestibulum.
                   </p>
+                  <div class="text-center">
+                    <a class="packs-blog-g" href="#">voir</a>
+                    <a class="packs-blog-g" href="#">ajouter</a>
+                    <a class="packs-blog-g" href="#">Acheter</a>
+                  </div>
                 </div>
               </div>
               <div class="border-top border-dark d-flex justify-content-between">

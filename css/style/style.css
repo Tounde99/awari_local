@@ -1,4 +1,4 @@
-/*packs*/
+/*Packs*/
 .packs-home {
   background: linear-gradient(0turn, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../../images/pack.jpg) no-repeat center;
   background-size: cover;
@@ -38,6 +38,12 @@
   border-left: 1px solid;
   padding: 0.5rem 1rem;
 }
+.packs-blog-g {
+  background-color: #1f4b8d;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+}
 /*Journey*/
 .journey {
   margin: 64px 0;
@@ -51,12 +57,7 @@
   width: 4px;
   height: 96px;
 }
-.travel-b {
-  background-color: #1f4b8d;
-  width: 4px;
-  height: 160px;
-}
-/*gallery*/
+/*Gallery*/
 .gallery {
   margin: 64px;
 }
@@ -76,4 +77,14 @@
   padding: 1.5rem;
   border-radius: 1rem 1rem 0 0;
   box-shadow: 0 0 6px  rgb(0 0 0 / 0.2);
+}
+/**/
+.gallery-gp-home {
+  background: linear-gradient(0turn, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../images/grand-popo-home.png) no-repeat center;
+  background-size: cover;
+  padding: 128px 0;
+  color: #fff;
+}
+.gallery-gp {
+  margin: 64px 0;
 }
